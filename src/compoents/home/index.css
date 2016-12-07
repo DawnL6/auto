@@ -1,0 +1,52 @@
+.home .title{
+    text-align: center;
+    margin: 30px 0 50px 0;
+}
+.home .my{
+    width: 1200px;
+    margin: auto;
+}
+.home .my .my-info{
+    width: 100px;
+    text-align: center;
+}
+.home .my .my-info img{
+    display: block;
+    width: 88px;
+    height:88px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: .3s;
+}
+.home .my .my-info img:hover{
+    border-color: #abcdef;
+    transform:rotate(20deg);
+}
+.home .my .my-info p{
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.home .my .list{
+    overflow: hidden;
+}
+.home .my .list li{
+    float: left;
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background-color: #abcdef;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 88px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s;
+}
+.home .my .list li:hover{
+    transform:rotate(20deg);
+}
+.home .my .user{margin-bottom: 10px;}
+.home .my .user:nth-child(2){margin-top: 50px;}
